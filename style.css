@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    text-align: center;
+    background: cornsilk;
+    
+}
+
+.row{
+    width: 100px;
+    height: 600px;
+    border: 2px solid black;
+    background: rgba(205,247,219);
+    display: flex;
+    flex-direction: column-reverse;
+}
+.dragDiv{
+    width: 95px;
+    height: 95px;
+    background-image: url(./assets/images/dragon-34167_640.png);
+    background-size: contain;
+}
+
+.flowerDiv{
+    width: 95px;
+    height: 95px;
+    background-image: url(./assets/images/mandala-1286296_640.png);
+    background-size: contain;
+}
+.gridcontainer{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    
+}
